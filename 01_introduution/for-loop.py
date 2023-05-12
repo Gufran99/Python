@@ -9,7 +9,7 @@ for footballer in best_football_player:
 # region Example -2
 
 best_football_player = ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Ronaldinho"]
-x = input("Bir boxar giriniz: ").title()
+x = input("Bir footballer giriniz: ").title()
 for footballer in best_football_player:
     if x == footballer:
         print(footballer)
