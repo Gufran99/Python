@@ -1,5 +1,4 @@
 # region Example -1
-#Kulanıcıdan alınan 2 adet sayı üzerinden temel 4 işlemi yapan uygulama
 
 sayi_1 = int (input("Lütfen bir sayı giriniz: "))
 sayi_2 = int (input("Lütfen bir sayı giriniz: "))
@@ -19,9 +18,6 @@ print(f'{sayi_1} / {sayi_2} = {bolme}')
 # endregion
 
 # region Example -2
-"""
-Kullanıcıdan alınan kenar bilgisine göre bir karenin alanını ve çevresini hesaplayan uygulama
-"""
 
 x = int (input("Lütfen sayı girin: "))
 
@@ -66,8 +62,6 @@ print(z)
 # endregion
 
 # region Example -6
-# Kullanıcıdan tam adını alalım
-# isim.soyisim@bilgiadam.com mail adresini oluşturalım ekrana basalım.
 
 f_n = input("Tam Adınız: ").lower()
 n_l = f_n.split(" ")
