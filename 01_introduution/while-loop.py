@@ -77,8 +77,7 @@ p_t_l = ['+', '-', '*', '/', 'e']
 while True:
     i = input("İşlem işareti giriniz: ")
     if i in p_t_l:
-        # in operötörü ile bir liste içerisinde item varsa True yoksa Folse döner.  Yani burda kullanıcının girdi işlem bizim işlem türü listemizde varsa True yoksa False dönecekç
-
+        
         if i == ("e"):
             break
         else:
