@@ -186,8 +186,7 @@ else:
 # region Example -12
 
 from math import sqrt
-#Uyarı: Python'da aritmatiksel işlemler için bulunan bir modül bulumaktadır. Bu modülün adı "math". Karakök işlemi için  bu modül içerisinde
-# bulunma sqrt() fonksiyonundan faydalanıcağız Bu modülden faydalana bilmek için çalışma dosyamıza bu modülü import etmemiz gerekmemektedir
+
 a = int(input("Birinci kat sayı: "))
 b = int(input("İkinci kat sayı: "))
 c = int(input("Üçüncü kat sayı: "))
