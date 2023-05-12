@@ -10,14 +10,17 @@ for footballer in best_football_player:
 
 best_football_player = ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Ronaldinho"]
 x = input("Bir footballer giriniz: ").title()
+is_prime = True
 for footballer in best_football_player:
     if x == footballer:
-        print(footballer)
+        is_prime = True
         break
     else:
-        print("Böyle biri yok")
-        break
-
+        is_prime = False
+if is_prime:
+    print(footballer)
+else:
+    print("Böyle biri yok")
 # endregion
 
 # region Exaöple -3
