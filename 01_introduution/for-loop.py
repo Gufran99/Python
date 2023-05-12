@@ -1,4 +1,4 @@
-# region Example -24
+# region Example -1
 
 best_football_player = ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Ronaldinho"]
 for footballer in best_football_player:
@@ -6,7 +6,7 @@ for footballer in best_football_player:
 
 # endregion
 
-# region Example -25
+# region Example -2
 
 best_football_player = ["Lionel Messi", "Cristiano Ronaldo", "Neymar", "Ronaldinho"]
 x = input("Bir boxar giriniz: ").title()
@@ -20,7 +20,7 @@ for footballer in best_football_player:
 
 # endregion
 
-# region Exaöple -1
+# region Exaöple -3
 
 cst = 0
 tst = 0
@@ -34,7 +34,7 @@ print(f'Çiflerin Toplamı: {cst} \nTeklerin toplamı: {tst}')
 
 # endregion
 
-# region Exaöple -2
+# region Exaöple -4
 # kullanıcıdan başlangıç, bittiş ve adım miktarını alalım. Bu şartlaraın bağlı kullanarak her bir adımda ki sayının karesi olarak ekrana yazdıralım
 #çıktıyı şu formatta istiyorum 1. adımdaki sonuç: 2
 
@@ -50,7 +50,7 @@ for i in range(x, y, z):
 
 # endregion
 
-# region Example -3
+# region Example -5
 # Kulanıcıdan alınan sayı asalmı değil mi
 
 x = int(input("Bir sayı giriniz: "))
@@ -74,7 +74,7 @@ else:
 # endregion
 
 
-# region Example -4
+# region Example -6
 
 c = 1
 for i in range(0, 1001, 10):
@@ -83,7 +83,7 @@ for i in range(0, 1001, 10):
 
 # endregion
 
-# region Example -5
+# region Example -7
 
 for i in range(1, 11):
     for a in range(1, 11):
@@ -92,7 +92,7 @@ for i in range(1, 11):
 
 # endregion
 
-# region Example -6
+# region Example -8
 
 x = int(input("Kenar uzunluğnu giriniz: "))
 for i in range(0, x):
@@ -102,7 +102,7 @@ for i in range(0, x):
 
 # endregion
 
-# region Example -7
+# region Example -9
 
 x = int(input("Kenar uzunluğnu giriniz: "))
 y = 1
@@ -114,7 +114,7 @@ for i in range(0, x):
 
 # endregion
 
-# region Example -8
+# region Example -10
 
 x = int(input("Kenar uzunluğnu giriniz: "))
 for i in range(0, x):
