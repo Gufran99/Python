@@ -27,7 +27,7 @@ else:
 
 cst = 0
 tst = 0
-for i in range(1, 101): # while loop plduğu gibi adım miktarını biz arrtırmıyoruz aksini söylemediğmiz sürece 1 olarak yani dafuşt bir bakul edilip çalışır
+for i in range(1, 101):
     if i % 2 == 0:
         cst += i
     else:
@@ -38,8 +38,6 @@ print(f'Çiflerin Toplamı: {cst} \nTeklerin toplamı: {tst}')
 # endregion
 
 # region Exaöple -4
-# kullanıcıdan başlangıç, bittiş ve adım miktarını alalım. Bu şartlaraın bağlı kullanarak her bir adımda ki sayının karesi olarak ekrana yazdıralım
-#çıktıyı şu formatta istiyorum 1. adımdaki sonuç: 2
 
 x = int(input("Başlangıç sayısını giriniz: "))
 y = int(input("Bitiş sayısını giriniz: "))
@@ -54,7 +52,6 @@ for i in range(x, y, z):
 # endregion
 
 # region Example -5
-# Kulanıcıdan alınan sayı asalmı değil mi
 
 x = int(input("Bir sayı giriniz: "))
 if x <= 0:
