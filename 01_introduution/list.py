@@ -115,7 +115,6 @@ print(harf)
 # endregion
 
 # region Example -9
-# raklmarı bir listeye ekleme
 sayilar = []
 for i in range(10):
    sayilar.append(i)
