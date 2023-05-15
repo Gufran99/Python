@@ -235,3 +235,16 @@ else:
     print("FF")
 
 # endregion
+
+# region Example -14
+x = input("Tam adını giriniz: ").title()
+y = input("Eğitim bilgisini giriniz: ").capitalize()
+z = int(input("Yaşını giriniz: "))
+if z >= 18:
+    if y == "Lise" or y == "Üniversite":
+        print("Ehliyet alabilir..")
+    else:
+        print("Lise yada Üniversite bitirmemiştir...")
+else:
+    print("Yaşı tutmuyor...")
+# endregion
