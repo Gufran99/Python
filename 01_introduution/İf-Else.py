@@ -258,3 +258,17 @@ if x < 50:
 else:
     print(f'Kargo bedava.\nTutar:{x}')
 # endregion
+
+# region Example -16
+x = int(input("Harcanılan fiyatı giriniz: "))
+hediye_puan = 0
+if x >= 2000:
+    hediye_puan += 100
+    print(f'Harcamanız {x} TL dir. Bunun için bizden {hediye_puan} TL herdiye puan kazandınız\nTebrikler.. ')
+elif 2000 > x >= 1000:
+    hediye_puan += 50
+    print(f'Harcamanız {x} TL dir. Bunun için bizden {hediye_puan} TL herdiye puan kazandınız\nTebrikler.. ')
+elif x < 1000:
+    hediye_puan += 10
+    print(f'Harcamanız {x} TL dir. Bunun için bizden {hediye_puan} TL herdiye puan kazandınız\nTebrikler.. ')
+# endregion
