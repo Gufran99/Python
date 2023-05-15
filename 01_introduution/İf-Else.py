@@ -248,3 +248,13 @@ if z >= 18:
 else:
     print("Yaşı tutmuyor...")
 # endregion
+
+# region Example -16
+x = int(input("Fiyatı giriniz: "))
+k_u = 7
+if x < 50:
+    x += k_u
+    print(f'Siparişiniz 50 TL den Küçük olduğu için {k_u} TL kargo üzrretiniz bulunmaktadır.\nToplam Fiyat:{x} TL')
+else:
+    print(f'Kargo bedava.\nTutar:{x}')
+# endregion
