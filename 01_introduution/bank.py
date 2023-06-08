@@ -1,4 +1,4 @@
-#bankamatik
+
 gufran_account = {
     'account_no': '12345',
     'full_name': 'gufran alataş',
@@ -30,10 +30,6 @@ users = [gufran_account, mustafa_account, umran_account]
 
 
 def withdraw_money(account: dict, amount: int):
-    # Çekilmek istenilen para bakiye tarafından karşılanıyor mu?
-    # Miktar bakiye tarafındak karşılanamamasında ek hesap devreye girilsin
-    # Ne bakiye ne ek hesap miktarı karşılayamama
-
     if account['ballance'] >= amount:
         account['ballance'] -= amount
         print("Don't fotget to take your money.")
@@ -109,8 +105,6 @@ def eft_process(sender_account: dict, receiver_account_no: str, amount: int):
     for user in users:
         if user['account_no'] == receiver_account_no:
             user['ballance'] += amount
-            # Adamın hesabında ki para yetecek mi? yetmiyorsa ek hesap devereye girecek mi?
-            # bütün parası yetecek mi?
             process_is_valid = True
             break
 
